@@ -7,7 +7,7 @@ async def main():
     bot = Bot(token="7690304596:AAFdx-5KQNjHfkLN7c1d6jl9LoNduRk_gIA")
     dp = Dispatcher()
 
-
+    await dp.start_polling(bot)
 
 
 if __name__ == "__main__":
